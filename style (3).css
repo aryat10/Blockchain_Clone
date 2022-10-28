@@ -1,0 +1,259 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #18184e;
+  font-family: sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(64, 64, 160), rgb(56, 56, 138), #c53049 );
+}
+
+li,a{
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #d4d3d3;
+  text-decoration: none;
+  border-block-color: white;
+  cursor: pointer;
+  list-style: none;
+  margin-left: 30px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 30px 10%;
+  color: #d90808;
+}
+
+img{
+  width: 50px;
+  margin-left: -114px;
+  cursor: pointer;
+}
+h1{
+  font-size: 40px;
+  color: white;
+  margin-left: 5px;
+/*   margin-top: -57px; */
+/*   margin-bottom: -60px; */
+  padding: 0;
+}
+h3{
+  font-size: 30px;
+  color: #beacac;
+  margin-left: 5px;
+  padding: 0;
+  text-align: right;
+}
+li{
+  display: inline-block;
+}
+
+nav{
+  width: 72%;
+  text-align: center;
+}
+
+ul{
+  display: flex;
+}
+
+
+.button{
+ font-family: sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #d4d3d3;
+  text-decoration: none;
+  border-block-color: white;
+  cursor: pointer;
+  list-style: none;
+  margin-left: 30px;
+  text-align: -webkit-match-parent;
+}
+
+.box1{
+  color: white;
+  height: 350px;
+  width: 60vw;
+  margin-top: 90px;
+  margin-left: 50px;
+  font-size: 22p
+}
+
+/* * {
+  margin: 0px;
+  padding: 0px;
+/* } */ 
+
+.container{
+  height: 700px;
+  background-image: linear-gradient(to bottom right,rgb(37, 34, 35), rgb(79 84 191),#87eb72 );
+  display: flex;
+  width: 100vw;
+  color:white;
+}
+
+.box2{
+  margin-top: 400px;
+  margin-left: -730px;
+}
+
+div {
+  display: block;
+}
+
+.bttn{
+  margin-left: 308px;
+  font-size: 18px;
+  margin: 6px;
+  border-radius: 9px;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #3e3cc3;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.bttn1{
+  margin-left: 308px;
+  font-size: 18px;
+  margin: 6px;
+  border-radius: 9px;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #3e3cc3;
+  color: white;
+  cursor: pointer;
+}
+
+.box1 h1{
+  font-size: 40px;
+  color: white;
+}
+
+.box1 h3{
+  font-size: 25px;
+  color:white;
+}
+
+#block1{
+  margin: -4rem 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+
+}
+
+.block1_s {
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+  border-radius: 0.5rem;
+  box-shadow: rgb(103 113 133 / 20%) 0.75rem 1.5rem 4rem 0rem;
+  color: rgb(18, 29, 51);
+  min-width: 0px;
+  padding: 1.25rem;
+  transition: background-image 0.6s ease 0s;
+  margin: 0.75rem;
+  display: block;
+}
+
+.block1_h img{
+  margin: -1rem 0.5rem;
+}
+
+
+.block_mid {
+  margin: 1.2rem 0.5rem 0.5rem 0.5rem;
+  display: flex;
+  font-size: 1.1rem;
+}
+
+.bold {
+  font-weight: 550;
+  margin: 0px 0.5rem 0px 0px;
+  color: black;
+  display: block;
+}
+
+grey {
+  font-weight: 600;
+  color: rgb(88, 88, 88);
+  margin: 0px 0px 0px 0.25rem;
+  display: block;
+}
+p{
+  margin-left: 15px;
+  font-size: 18px;
+  display: block;
+}
+
+
+#logo1{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.buy{
+  margin-left: 80px;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(220, 198, 241);
+  color: blueviolet;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.trade{
+/*   justify-content: center; */
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color:  rgb(226, 246, 239);
+  color: #3ac3df;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.box50{
+  display: block;
+  height: 150px;
+  width: 250px;
+  background-color: white;
+  border: 2px solid grey;
+  margin: 15px;
+  margin-top: -80px;
+  border-radius: 10px
+}
+
+#logo1{
+ display: flex;
+ margin-top: 10px;
+ margin-left: 15px;
+}
+
+.container1{
+  display: flex;
+/*   height: 150px; */
+  padding-left: 190px;
+  width: auto;
+  flex-wrap: wrap;
+}
+
+#logo2{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 15px;
+}
